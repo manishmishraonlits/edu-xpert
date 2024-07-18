@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head-up {
+    background-color: #147071;
+    color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-down {
+    margin-top: 0;
+    background-color: #164441;
+    height: 35px;
+    width: 100%;
+    /* position: sticky; */
+    /* top: 0px; */
+}
+.head-down .navbar {
+    height: 35px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.head-down .navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-right: 20px;
+}
+ 
+.container{
+    background-color: rgb(237, 233, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container .reg{
+    margin:20px 0px;
+    font-size: 20px;
+}
+.container .student-data{
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    border-radius: 6px;
+    padding: 25px;
+    margin-bottom: 40px;
+    border: 1px solid grey;
+}
+.container .student-data .input{
+    display: flex;
+}
+.container .student-data .input .input-box{
+    display: flex;
+    flex-direction: column;
+    width: calc((100% / 3) - 15px);
+    margin: 15px;
+}
+.container .student-data .input .input-box .gen input{
+    margin: 10px 10px;
+}
+.container .student-data .input .ip-box{
+    width: calc(100% - 15px);
+}
+.container .student-data .input .ip-box3{
+    width: calc((100% / 2 ) - 15px);
+}
+.container .student-data .input .ip-box4{
+    width: calc(100% - 15px);
+}
+
+.container .student-data .submit{
+    text-align: center;
+    margin: 15px 0px;
+}
+.container .student-data .submit input{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 219);
+    color: white;
+    font-weight: bold;
+}
+
+
+.container .student-data .input .input-box input, select{
+    padding: 5px;
+    margin-top: 3px;
+    border: 1px solid black;
+}
+.foot-up{
+    background-color: #2b415e;
+    height: 30px;
+    width: 100%;
+}
+.foot-middle{
+    background-color: #232F3F;
+    height: 100px;
+    width: 100%;
+}
+.foot{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+@media screen and (max-width:1000px) {
+    .head-down .navbar{
+        justify-content: space-around;
+    }
+    .head-down .navbar a{
+        margin: 0;
+        font-size: 10px;
+    }
+    .container .student-data{
+        width: 90%;
+    }
+     .container .student-data .input{
+        display: flex;
+        flex-direction: column;
+     }
+     .container .student-data .input .input-box{
+        width: calc(100% - 15px);
+     }
+}

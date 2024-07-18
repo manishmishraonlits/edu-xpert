@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <link rel="stylesheet" href="webstyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="head-up">
+            <h1>EduXpert</h1>
+        </div>
+        <div class="head-down">
+            <div class="navbar">
+                <a href="/#">HOME</a>
+                <a href="/#">COURSES</a>
+                <a href="/#">CONTACT</a>
+                <a href="/#">ABOUT</a>
+                <a href="/#">LOG IN / SIGN UP</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <form action="#">
+            <div class="container">
+                <div class="reg">Student Enrollment Form</div>
+                <div class="student-data">
+                    <span class="tittle"><b>Personal details</b></span>
+                    <div class="input">
+                        <div class="input-box">
+                            <label>Student Name</label>
+                            <input type="text" placeholder="Enter Student Full Name" required>
+                        </div>
+                        <div class="input-box">
+                            <label>Father's Name</label>
+                            <input type="text" placeholder="Enter Father's Full Name" required >
+                        </div>
+                        <div class="input-box">
+                            <label>Mother Name</label>
+                            <input type="text" placeholder="Enter Mother Full Name" required>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <div class="input-box">
+                            <label>Date of Birth</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="input-box">
+                            <label>Select Gender</label>
+                            <div class="gen">
+                                <label for="Male">
+                                    <input type="radio" name="gender" value="Male" id="Male" required>Male
+                                </label>
+                                <label for="Female">
+                                    <input type="radio" name="gender" value="Female" id="Female" required>Female
+                                </label>
+                            </div>
+                            
+                        </div>
+                        <div class="input-box">
+                            <label>Adhar Number</label>
+                            <input type="number" placeholder="0000 0000 0000" required>
+                        </div>
+
+                    </div>
+
+                    <span class="tittle"><b>Address</b></span>
+                    <div class="input">
+                        <div class="input-box ip-box2">
+                            <label>Street/Village Name</label>
+                            <input type="text" placeholder="Enter Street/Village Name" required>
+                        </div>
+                        <div class="input-box ip-box2">
+                            <label>City Name</label>
+                            <input type="text" placeholder="Enter City Name" required>
+                        </div>
+                        <div class="input-box ip-box2">
+                            <label>District Name</label>
+                            <input type="text" placeholder="Enter District Name" required>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <div class="input-box ip-box2">
+                            <label>Select State</label>
+                            <select name="state" id="state" required>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Pujab">Punjab</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="up">Uttar Pradesh</option>
+                                <option value="more">More</option>
+                            </select>
+                        </div>
+                        <div class="input-box ip-box2">
+                            <label>Select Country</label>
+                            <select name="country" id="country" required>
+                                <option value="india">India</option>
+                                <option value="america">America</option>
+                                <option value="china">Chine</option>
+                                <option value="afg">Afghanistan</option>
+                                <option value="more">More</option>
+                            </select>
+                        </div>
+                        <div class="input-box ip-box2">
+                            <label>Pin Code</label>
+                            <input type="number" placeholder="012345" required>
+                        </div>
+                    </div>
+                    <span class="tittle"><b>Contact Details</b></span>
+                    <div class="input">
+                        <div class="input-box ip-box3">
+                            <label>Phone Number</label>
+                            <input type="Number" placeholder="0123456789" required>
+                        </div>
+                        <div class="input-box ip-box3">
+                            <label>Email id</label>
+                            <input type="email" placeholder="abc@gmail.com" required>
+                        </div>
+                    </div>                                          
+                        <span class="tittle"><b>Courses</b></span>
+                        <div class="input">
+                            <div class="input-box ip-box4">
+                                <label> Select Course</label>
+                                <select name="course" id="" required>
+                                    <option value="iit jee">IIT JEE</option>
+                                    <option value="iit jee">NEET</option>
+                                    <option value="iit jee">NIMCET</option>
+                                    <option value="iit jee">GATE</option>
+                                </select>
+                            </div>
+                        </div>                   
+                    <div class="submit">
+                        <input type="submit" placeholder="Submit">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="foot-up">
+
+        </div>
+        <div class="foot-middle">
+
+        </div>
+        <div class="foot">
+            All Right Raserved By EduXpert
+        </div>
+    </footer>
+</body>
+
+</html>
