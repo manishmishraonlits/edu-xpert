@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.foot-up{
+    height: 25px;
+    background-color: #2b415e;
+}
+.foot-middle{
+    height: 120px;
+    background-color: #232F3F;
+}
+.foot-down{
+    height: 25px;
+    background-color: black;
+}
